@@ -14,7 +14,10 @@ function cambiarMascota(nuevo) {
     return mascota = nuevo
 }
 
-cambiarAmigo("Pepito");
-cambiarAmiga("Pepita");
-cambiarMascota("Pet1");
+function main() {
+    cambiarAmigo("Pepito");
+    cambiarAmiga("Pepita");
+    cambiarMascota("Pet1");
+}
 
+main();
